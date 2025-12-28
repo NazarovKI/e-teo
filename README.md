@@ -10,7 +10,7 @@ Make use of docker-powered GitHub workflows to automatically create figures (`py
 ## Why this repo
 The idea is comparable to [overleaf.com](https://www.overleaf.com), but with two significant changes: making full use of git features as well as create plots during the build process.
 Regarding git, [overleaf states](https://www.overleaf.com/blog/195-new-collaborate-online-and-offline-with-overleaf-and-git-beta)
-> It's also worth noting that you can use whatever git branching model you like locally, but you can only push changes to the master branch on Overleaf. 
+> It's also worth noting that you can use whatever git branching model you like locally, but you can only push changes to the master branch on Overleaf...
 
 I, personally, make a lot of use of multiple branches, especially in combination with the GitHub pull requests and when working together with other people. This was the initial reason for me to find a solution for `LaTeX` group projects. 
 [The texlive docker container of DANTE EV](https://github.com/dante-ev/docker-texlive) combines well with the GitHub Actions to automatically build the `main.tex` at each commit.
